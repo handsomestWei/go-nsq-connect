@@ -3,7 +3,7 @@ golang消息中间件**nsq**的连接端，包含生产者和消费者。以及n
 
 ## nsq消息流
 图源官方文档
-<div align=center><img width="420" height="281" src="https://github.com/handsomestWei/go-nsq-connect/blob/master/nsq-design.gif" /></div>
+<div align=center><img width="420" height="281" src="https://github.com/handsomestWei/go-nsq-connect/blob/main/nsq-design.gif" /></div>
 
 ## nsq组件介绍
 + **nsqlookupd**：中心管理服务，守护进程负责管理拓扑信息。客户端通过查询 nsqlookupd 来发现指定话题（topic）的生产者，并且 nsqd 节点广播话题（topic）和通道（channel）信息。
